@@ -87,7 +87,21 @@ table {
 	padding: 0.5em 2em;
 }
 
+.lang p:hover, .menu p:hover {
+	border-bottom: 1px solid gray;
+}
+
 .jumbotron img {
 	width: 100%;
 	height: auto;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer div {
+	padding: 0.5em 0;
 }
