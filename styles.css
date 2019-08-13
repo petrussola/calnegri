@@ -105,3 +105,19 @@ table {
 .footer div {
 	padding: 0.5em 0;
 }
+
+.footer .links {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer .links div {
+	height: 100px;
+}
+
+.footer .links div img {
+	width: auto;
+	height: 100%;
+}
