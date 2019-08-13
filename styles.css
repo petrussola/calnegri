@@ -59,6 +59,10 @@ table {
 	align-items: center;
 }
 
+.container section {
+	padding: 0.5em 0;
+}
+
 .navigation {
 	display: flex;
 	flex-direction: column;
@@ -81,4 +85,9 @@ table {
 
 .lang p, .menu p  {
 	padding: 0.5em 2em;
+}
+
+.jumbotron img {
+	width: 100%;
+	height: auto;
 }
